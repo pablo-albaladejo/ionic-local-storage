@@ -5,7 +5,6 @@ branches:
    only:
       - master
 before_script:
-   - npm install -g @angular/cli
    - npm install -g cordova ionic
 script:
    - ionic cordova build browser
